@@ -1,0 +1,48 @@
+FUNÇÕES
+def gritar(frase):            # def -- definir a função, com uma variavel (n)
+    if frase == frase.upper()
+        print('Estás a gritar!')
+    else:
+        print('Tens de falar mais alto.')
+
+
+
+BIBLIOTECAS
+Genérico:
+    >import biblioteca
+Importar uma função:
+    >from biblioteca import função
+Universal:
+    >from biblioteca import *
+
+
+max(x,y,n)   #Apresenta o maior número 
+min(x,y,n)   #Apresenta o menor número
+abs(n)       #Apresenta o valor absoluto de n
+type()       #Apresenta o tipo de data que recebe (int, float, str)
+
+
+LISTAS
+    >lista = ['x', 'y', 'n']
+slice:                         #apenas uma porção da lista
+    >slice = lista[0:2]
+adicionar itens:
+    >lista.append()
+verificação:
+    >print(lista.index('n'))       #vai printar 2
+inserir itens na lista:
+    >lista.insert(1, 'k')          #insere o capa na posição 1. 'y' passa a estar na posição 2 e 'n' na posição 3
+modificar a lista:
+    >lista.sort()
+remover itens da lista:
+    >lista.remove('y')
+
+
+DICIONÁRIOS
+    >d = {'key1' : 1, 'key2' : 2, 'key3' = 3}
+buscar certas keys:
+    >print(d['key1'])
+adicionar keys:
+    >d[key4] = 4
+apagar keys:
+    >del d[key4]
