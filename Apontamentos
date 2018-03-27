@@ -35,7 +35,11 @@ inserir itens na lista:
 modificar a lista:
     >lista.sort()
 remover itens da lista:
-    >lista.remove('y')
+    >lista.remove('y')             #colocar o item que quero remover
+    >lista.pop(index)              #para remover um item de um index
+    >del(lista[index])             #o mesmo de cima mas nao retorna o item
+printar um item da lista:
+    >print(lista[1])
 
 
 DICIONÁRIOS
